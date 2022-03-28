@@ -67,7 +67,7 @@ class UserController {
       await sendEmail(email);
       // res.header('auth-token', token);
       res.status(200).json({
-        message: 'User created successfully',
+        message: 'User created successfully plz confirm your email',
       });
     } catch (error) {
       res.status(400).json({ error: error.message });
