@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        background-image: url('https://www.torahtech.tech/e1b1a/img/background/body_bg.jpg');
+        background-size: 50px 50px;
+        background-position: center center;
+        background-repeat: repeat;
+      }
+      ::after,
+      ::before {
+        box-sizing: border-box;
+      }
+      /* the messages  */
+      .text-center {
+        text-align: center !important;
+      }
+      .col-success {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+      .col-success p {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+      .alert {
+        position: relative;
+        padding: 0.75rem 1.25rem;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+      }
+      .alert-success {
+        color: #155724;
+        background-color: #d4edda;
+        border-color: #c3e6cb;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="col-success text-center">
+      <div class="alert alert-success">
+        <p>Email Confirmed Successfully</p>
+        <a href="https://localhost:3000/api/login" target="blank">
+          Click here to Login</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
