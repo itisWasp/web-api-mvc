@@ -31,7 +31,7 @@ const options = {
       description: 'Local server',
     },
     {
-      url: 'https://my-portfolio-back-end.herokuapp.com/api/doc/',
+      url: 'https://web-api-mvc.herokuapp.com/api/docs/',
       description: 'Remote server',
     },
   ],
